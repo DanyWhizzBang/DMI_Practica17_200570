@@ -18,7 +18,7 @@ try {
     console.log("STATUS -> Intentando conectarse a la base de datos...");
     await dbConnection.authenticate();
     console.log("STATUS -> Conexión a la base de datos exitosa...");
-    // await dbConnection.sync();
+    await dbConnection.sync();
     console.log("STATUS -> Base de Datos lista para realizar operaciones");
 } catch (error) {
     console.error("Han ocurrido errores intentando conectarse a la base de datos");
