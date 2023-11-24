@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import dbConnection from "../config/db.js";
 
-const Player = dbConnection.define("tbb_players",
+const Player = dbConnection.define("player_",
 {
     name: {
         type: DataTypes.STRING(255),
