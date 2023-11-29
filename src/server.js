@@ -1,7 +1,6 @@
 import express from "express";
 import playerRoutes from "./routes/playerRoutes.js";
 import dbConnection from "./config/db.js";
-import {Player, Game} from "./models/relationShips.js";
 
 const app = express();
 const port = 20057;
